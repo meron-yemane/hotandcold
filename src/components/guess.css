@@ -1,0 +1,55 @@
+#guessContainer {
+  height: 100%;
+}
+
+#guess {
+  background-color: #50597b;
+  border: solid 1px #1F253D;
+  border-radius: 3px;
+  color: #95a5a6;
+}
+
+#guessContainer input {
+  width: 300px;
+  height: 55px;
+  text-align: center;
+  font-size: 2em;
+  color: #95a5a6;
+}
+
+#guessbutton {
+  margin-top: 5%;
+  background-color: #1F253D;
+  border: solid 1px #1F253D;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #95a5a6;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #95a5a6;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #95a5a6;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #95a5a6;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #95a5a6;
+}
+
+textarea:focus, input:focus {
+  color: #fff;
+}
+

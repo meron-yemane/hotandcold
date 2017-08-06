@@ -1,0 +1,29 @@
+#newGame {
+  float: right;
+  margin-right: 1%;
+}
+
+#title {
+  font-size: 3em;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+
+#newGame button {
+  background-color: #1F253D;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0px;
+  cursor: pointer;
+  margin: 0 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: .5em;
+
+}
+
+#head {
+  display: block;
+  text-align: center;
+}

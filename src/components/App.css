@@ -1,0 +1,11 @@
+#container {
+  text-align: center;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.games {
+  width: 380px;
+  margin: 0 auto;
+  padding-top: 1em;
+  background-color: #394264;
+}
